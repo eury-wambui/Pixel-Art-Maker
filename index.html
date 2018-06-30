@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pixel Art Maker!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=magneto">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <img src="ALC NYERI TEAM.jpg" alt="ALC NYERI TEAM" width="250" height="250">
+
+    <h1><em><marquee direction="down">Wambui: Pixel Art Maker</marquee></em></h1>
+
+    <h2>Choose Grid Size</h2>
+    <form id="sizePicker">
+        Grid Height:
+        <input type="number" id="inputHeight" name="height" min="1" value="1">
+        Grid Width:
+        <input type="number" id="inputWeight" name="width" min="1" value="1">
+        <input type="submit">
+    </form>
+
+    <h2><u>Pick A Color Of Your Choice</u></h2>
+    <input type="color" id="colorPicker">
+
+    <h2><em>Design an awesome Canvas</em></h2>
+    <table id="pixelCanvas"></table>
+  
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script src="designs.js"></script>
+</body>
+</html>

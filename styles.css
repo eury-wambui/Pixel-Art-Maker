@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+    background: purple;
+}
+
+    h1 {
+        font-family:magneto;
+        font-size: 70px;
+        margin: 0.2em;
+        color:gold;
+    }     
+    input[type=submit] {
+        border-radius: 5px;
+        border: 4;
+        width: 80px;
+        height:25px;
+
+        color: red;
+        border-color:yellowgreen;
+        background:purple;
+        font-family:magneto;
+    }
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}
+
